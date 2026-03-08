@@ -1,4 +1,4 @@
-# FWU CSIT Notes & Notice Portal
+# FWU CSIT Notes
 
 A simple and lightweight website created to help **BSc CSIT students of Far-Western University** easily access important academic resources.
 
