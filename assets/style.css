@@ -54,7 +54,6 @@ header {
   justify-content: space-between;
   align-items: center;
   height: 3.5rem;
-
   animation: appearFromTop 400ms ease-in 1;
 }
 
@@ -160,19 +159,35 @@ header {
 @media (width >= 900px) {
   .footer,
   header {
-    padding: 1.5rem 5rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
   }
 
   .main-section {
-    padding-top: 8rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
   }
 }
 @media (width >= 1200px) {
   .footer,
   header {
-    padding: 1.5rem 10rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .first-para {
   text-align: justify;
@@ -251,6 +266,7 @@ header {
     rgb(72, 72, 72),
     gray
   );
+
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
